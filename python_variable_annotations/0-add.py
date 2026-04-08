@@ -1,14 +1,7 @@
 #!/usr/bin/env python3
+"""Module for simple arithmetic addition of two numbers."""
 
 
 def add(a: float, b: float) -> float:
-    """Add two floating-point numbers and return the result.
-
-    Args:
-        a (float): The first number.
-        b (float): The second number.
-
-    Returns:
-        float: The sum of a and b.
-    """
-    return a + b  # Perform addition and return the sum
+    """Add two floating-point numbers and return the result."""
+    return a + b
