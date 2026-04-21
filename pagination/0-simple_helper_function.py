@@ -1,4 +1,4 @@
-#!/usr/bon/env python3
+#!/usr/bin/env python3
 
 def index_range(page: int, page_size: int) -> tuple:
     """Return a tuple of start and end indexes for pagination."""
