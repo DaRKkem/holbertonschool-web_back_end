@@ -1,6 +1,2 @@
-// Add attribute address to all documents with the name 'Holberton school'
-db.school.update(
-  { name: "Holberton school" },
-  { $set: { address: "972 Mission street" } },
-  { multi: true }
-)
+// count all documents in school
+db.school.count()
