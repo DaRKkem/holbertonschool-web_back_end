@@ -1,6 +1,6 @@
 // Returns an array of objects who are located in a specific city
-export default function getStudentsByLocation(list, city) {
-    if (!Array.isArray(list))
+export default function getStudentsByLocation(arr, city) {
+    if (!Array.isArray(arr))
         return [];
-    return list.filter(element => element.location === city);
+    return arr.filter(element => element.location === city);
 }
