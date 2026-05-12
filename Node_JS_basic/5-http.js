@@ -11,14 +11,18 @@ function countStudents (path) {
       const lines = data.split('\n').filter((line) => line !== '');
       const students = lines.slice(1);
       // difference with task 3 below (result)
-      let result = `Number of students: ${students.length}`;
+      let result = `Number of students: ${students.length}\n`;
 
-      const lines_result = [];
-      Object.keys(fields).forEach((field) => {
-        lines_result.push(`Number of students in ${field}: ${fields[field].length}. List: ${fields[field].join(', ')}`);
+      const fields = {};
+      students.forEach((line) => {
+        const [firstname, , , field] = line.split(',');
+        if (!fields[field]) fields[field] = [];
+        fields[field].push(firstname);
       });
 
-      result += '\n' + lines_result.join('\n');
+      Object.keys(fields).forEach((field) => { // difference with task 3 below (result)
+        result += `Number of students in ${field}: ${fields[field].length}. List: ${fields[field].join(', ')}\n`;
+      });
       return resolve(result);
     });
   });
@@ -27,13 +31,13 @@ function countStudents (path) {
 const app = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   if (req.url === '/') {
-    res.end('Hello Holberton School!');
+    res.end('Hello Holberton School!\n');
   } else if (req.url === '/students') {
     countStudents(process.argv[2])
       .then((data) => res.end(`This is the list of our students\n${data}`))
       .catch((err) => res.end(err.message));
   } else {
-    res.end('Hello Holberton School!');
+    res.end('Hello Holberton School!\n');
   }
 });
 
