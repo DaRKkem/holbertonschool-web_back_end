@@ -1,7 +1,7 @@
 // Reads a CSV database synchronously and counts students by field
 const fs = require('fs');
 
-function countStudents(path) {
+function countStudents (path) {
   let data;
   try {
     data = fs.readFileSync(path, 'utf8');
