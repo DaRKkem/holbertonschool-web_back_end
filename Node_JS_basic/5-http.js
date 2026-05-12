@@ -2,13 +2,13 @@
 const http = require('http');
 const fs = require('fs');
 
-function countStudents (path) {
+function countStudents(path) {
   return new Promise((resolve, reject) => {
     fs.readFile(path, 'utf8', (err, data) => {
       if (err) {
         return reject(new Error('Cannot load the database'));
       }
-      const lines = data.split('\n').filter((line) => line !== '');
+      const lines = data.trim().split('\n').filter((line) => line.trim() !== '');
       const students = lines.slice(1);
       // difference with task 3 below (result)
       let result = `Number of students: ${students.length}\n`;
