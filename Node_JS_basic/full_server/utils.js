@@ -1,4 +1,5 @@
-// Reads a CSV database asynchronously and counts students by field
+// utils.js
+// Reads a CSV database asynchronously and returns students grouped by field
 import fs from 'fs';
 
 function readDatabase(path) {
