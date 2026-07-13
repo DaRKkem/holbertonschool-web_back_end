@@ -1,5 +1,15 @@
 # ES6 Classes
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) ![Node.js](https://img.shields.io/badge/Node.js-%3E=12-green)
+
+```js
+class ClassRoom {
+  constructor(maxStudentsSize) {
+    this._maxStudentsSize = maxStudentsSize;
+  }
+}
+```
+
 An exploration of the ES6 `class` syntax for object-oriented programming in JavaScript. Covers constructors, getters/setters, inheritance, static members, and special symbols.
 
 ---
@@ -33,8 +43,15 @@ An exploration of the ES6 `class` syntax for object-oriented programming in Java
 - **Hoisting** -- classes are NOT hoisted like function declarations; order matters
 - **Object cloning** -- creating independent copies of class instances
 
-**Repository:** `holbertonschool-web_back_end` -- **Directory:** `ES6_classes`
+---
+
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+Directory: ES6_classes
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

@@ -1,5 +1,12 @@
 # Python Variable Annotations
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+```python
+def add(a: float, b: float) -> float:
+    return a + b
+```
+
 A project introducing Python 3 type hints. Covers basic annotations, the `typing` module, and higher-order function signatures.
 
 ---
@@ -31,8 +38,15 @@ A project introducing Python 3 type hints. Covers basic annotations, the `typing
 - **Union types** -- `Union[int, float]` for parameters that accept multiple types
 - **Complex types** -- nested generics like `List[Tuple[str, float]]`
 
-**Repository:** `holbertonschool-web_back_end` -- **Directory:** `python_variable_annotations`
+---
+
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+Directory: python_variable_annotations
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

@@ -1,5 +1,12 @@
 # Pagination
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+```python
+def index_range(page, page_size):
+    return ((page - 1) * page_size, page * page_size)
+```
+
 A Python project exploring different pagination strategies for REST APIs. Covers offset-based, hypermedia, and deletion-resilient (cursor-based) pagination.
 
 ---
@@ -24,8 +31,15 @@ A Python project exploring different pagination strategies for REST APIs. Covers
 - **Metadata** -- `page`, `page_size`, `total_pages`, `next`, `prev` in API responses
 - **Data integrity** -- ensuring no items are skipped or duplicated as the dataset changes
 
-**Repository:** `holbertonschool-web_back_end` -- **Directory:** `pagination`
+---
+
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+Directory: pagination
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

@@ -1,5 +1,12 @@
 # Node.js Basic
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) ![Node.js](https://img.shields.io/badge/Node.js-%3E=12-green) ![Express](https://img.shields.io/badge/Express-4.x-lightgrey)
+
+```js
+const app = express();
+app.get('/', (req, res) => res.send('Hello'));
+```
+
 A hands-on introduction to server-side JavaScript with Node.js. Covers I/O, module system, raw HTTP servers, Express, and a structured MVC-like architecture.
 
 ---
@@ -35,8 +42,15 @@ A hands-on introduction to server-side JavaScript with Node.js. Covers I/O, modu
 - **Controllers / Routes pattern** -- separating request handling from route definitions
 - **Modular design** -- splitting database access, controllers, and routes into separate files
 
-**Repository:** `holbertonschool-web_back_end` -- **Directory:** `Node_JS_basic`
+---
+
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+Directory: Node_JS_basic
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

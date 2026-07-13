@@ -1,5 +1,14 @@
 # Python Async Functions
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+```python
+async def wait_random(max_delay=10):
+    delay = random.uniform(0, max_delay)
+    await asyncio.sleep(delay)
+    return delay
+```
+
 A project on writing and orchestrating coroutines in Python 3.5+ using `async`/`await`. Covers concurrent execution, task creation, and runtime benchmarking.
 
 ---
@@ -25,8 +34,15 @@ A project on writing and orchestrating coroutines in Python 3.5+ using `async`/`
 - **Coroutine sorting** -- collecting and ordering results from concurrent operations
 - **Event loop** -- `asyncio.run()` as the entry point for async programs
 
-**Repository:** `holbertonschool-web_back_end` -- **Directory:** `python_async_function`
+---
+
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+Directory: python_async_function
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

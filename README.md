@@ -1,5 +1,7 @@
 # Web Back-End Specialization
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) ![Python](https://img.shields.io/badge/Python-3.12-blue) ![Node.js](https://img.shields.io/badge/Node.js-%3E=12-green) ![MongoDB](https://img.shields.io/badge/MongoDB-7.0-green) ![Flask](https://img.shields.io/badge/Flask-3.x-lightgrey) ![License](https://img.shields.io/badge/License-Holberton-yellow)
+
 This repository contains the Web Back-End Specialization projects at Holberton School. The curriculum covers a comprehensive range of back-end technologies and concepts, starting from modern JavaScript (ES6) fundamentals, progressing through Node.js server-side development, database management with MongoDB, and extending into Python asynchronous programming and type annotations.
 
 ## Sub-Projects
@@ -19,4 +21,12 @@ This repository contains the Web Back-End Specialization projects at Holberton S
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+
+---
+
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

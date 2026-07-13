@@ -1,5 +1,11 @@
 # NoSQL -- MongoDB
 
+![MongoDB](https://img.shields.io/badge/MongoDB-7.0-green) ![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+```js
+db.collection.find({ score: { $gt: 80 } })
+```
+
 A project covering both the MongoDB shell (CLI) and Python-driven CRUD with PyMongo. Moves from basic database operations to aggregation and real-world log analysis.
 
 ---
@@ -33,8 +39,15 @@ A project covering both the MongoDB shell (CLI) and Python-driven CRUD with PyMo
 - **Log analysis** -- extracting patterns (IP, method, status) from raw collections
 - **Python + MongoDB** -- connecting with `pymongo.MongoClient` and accessing databases/collections
 
-**Repository:** `holbertonschool-web_back_end` -- **Directory:** `NoSQL`
+---
+
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+Directory: NoSQL
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

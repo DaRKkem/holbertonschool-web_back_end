@@ -1,5 +1,11 @@
 # ES6 Data Manipulation
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) ![Node.js](https://img.shields.io/badge/Node.js-%3E=12-green)
+
+```js
+const ids = students.map((student) => student.id);
+```
+
 A project focused on transforming and querying data using ES6 methods. Covers arrays, typed arrays, sets, maps, and functional programming patterns.
 
 ---
@@ -33,8 +39,15 @@ A project focused on transforming and querying data using ES6 methods. Covers ar
 - **Map** -- key-value store with `get`, `set`, `has`
 - **Data transformation pipelines** -- chaining `filter` -> `map` -> `reduce`
 
-**Repository:** `holbertonschool-web_back_end` -- **Directory:** `ES6_data_manipulation`
+---
+
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+Directory: ES6_data_manipulation
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

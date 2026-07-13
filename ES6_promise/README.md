@@ -1,5 +1,11 @@
 # ES6 Promises
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) ![Node.js](https://img.shields.io/badge/Node.js-%3E=12-green)
+
+```js
+return new Promise((resolve) => resolve('Success!'));
+```
+
 An introduction to asynchronous programming in JavaScript using Promises. Covers creation, resolution, rejection, chaining, error handling, and parallel execution.
 
 ---
@@ -32,8 +38,15 @@ An introduction to asynchronous programming in JavaScript using Promises. Covers
 - **Guardrail pattern** -- always return a structured response even on failure
 - **Concurrent execution** -- running tasks in parallel with `Promise.all`
 
-**Repository:** `holbertonschool-web_back_end` -- **Directory:** `ES6_promise`
+---
+
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+Directory: ES6_promise
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

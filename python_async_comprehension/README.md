@@ -1,5 +1,14 @@
 # Python Async Comprehension
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+```python
+async def async_generator():
+    for _ in range(10):
+        await asyncio.sleep(1)
+        yield random.random()
+```
+
 A project covering asynchronous generators and comprehensions in Python 3.6+. Introduces `async for`, `yield` in coroutines, and runtime measurement.
 
 ---
@@ -22,8 +31,15 @@ A project covering asynchronous generators and comprehensions in Python 3.6+. In
 - **Runtime measurement** -- `time.perf_counter()` to benchmark async execution
 - **Event loop** -- `asyncio.run()` to execute top-level async code
 
-**Repository:** `holbertonschool-web_back_end` -- **Directory:** `python_async_comprehension`
+---
+
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+Directory: python_async_comprehension
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

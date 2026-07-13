@@ -1,5 +1,11 @@
 # ES6 Basics
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) ![Node.js](https://img.shields.io/badge/Node.js-%3E=12-green) ![License](https://img.shields.io/badge/License-Holberton-yellow)
+
+```js
+const greet = (name) => `Hello, ${name}!`;
+```
+
 A foundational project introducing modern JavaScript (ECMAScript 2015) features. Each file demonstrates a distinct ES6 concept with reusable, production-style functions.
 
 ---
@@ -36,8 +42,15 @@ A foundational project introducing modern JavaScript (ECMAScript 2015) features.
 - **for...of** -- clean iteration over iterable values
 - **Object method definitions** -- concise method syntax inside object literals
 
-**Repository:** `holbertonschool-web_back_end` -- **Directory:** `ES6_basic`
+---
+
+Repository
+
+GitHub repository: holbertonschool-web_back_end
+Directory: ES6_basic
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes
